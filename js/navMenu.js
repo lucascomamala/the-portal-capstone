@@ -9,16 +9,12 @@ function displayMenu() {
   showing = true;
   header.classList.toggle('show');
   barsButton.classList.toggle('hide');
-  // header.style.display = 'block';
-  // barsButton.style.display = 'none';
 }
 
 function collapseMenu() {
   showing = false;
   header.classList.toggle('show');
   barsButton.classList.toggle('hide');
-  // header.style.display = 'none';
-  // barsButton.style.display = 'initial';
 }
 
 barsButton.addEventListener('click', displayMenu);

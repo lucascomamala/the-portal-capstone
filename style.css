@@ -73,6 +73,10 @@ header ul {
   flex-direction: column;
 }
 
+.nav-menu a {
+  width: fit-content;
+}
+
 .nav-image {
   width: 78px;
   margin: 2rem 0;
@@ -305,6 +309,39 @@ header ul {
   color: #272a31;
 }
 
+.btn-films {
+  text-decoration: none;
+  width: 100%;
+  max-width: 34rem;
+  padding: 1rem;
+  color: #272a31;
+  border: 1px solid #272a31;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 24px;
+}
+
+.btn-films i {
+  padding-left: 0.8rem;
+  color: #ec5242;
+}
+
+.btn-films:hover, .btn-films:active {
+  background: #ec5242;
+  color: #d3d3d3;
+  border: 1px solid transparent;
+}
+
+.btn-films:hover i, .btn-films:active i {
+  color: #d3d3d3;
+}
+
+#btn-less {
+  display: none;
+  cursor: default;
+}
+
 /* Footer */
 #partners {
   display: flex;
@@ -474,7 +511,7 @@ p.contact-email {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   header.show {
     display: block;
   }
@@ -484,7 +521,7 @@ p.contact-email {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   header {
     opacity: 1;
     padding: 0;
@@ -531,7 +568,6 @@ p.contact-email {
   }
 
   .about-bottom-nav li a {
-    font-size: 1rem;
     color: #272a31;
   }
 
@@ -554,12 +590,6 @@ p.contact-email {
     text-align: center;
   }
 
-  #films {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 3.5rem;
-  }
-
   .about-wrapper {
     padding: 10rem 10rem 6rem;
   }
@@ -570,5 +600,13 @@ p.contact-email {
 
   .past-card-container {
     flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #films {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.5rem;
   }
 }
