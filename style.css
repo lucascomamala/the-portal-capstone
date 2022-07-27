@@ -17,20 +17,27 @@ html {
   margin: 0.7rem auto 4rem;
 }
 
-/* NavBar */
-.topnav {
-  display: flex;
-  flex-direction: row;
-}
-
-.topnav a {
-  text-decoration: none;
-}
-
-.topnav .bars {
-  font-size: 40px;
-  width: 50px;
+.h2dark {
+  font-size: 2rem;
+  font-weight: 600;
   color: #272a31;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+
+.h2light {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #d3d3d3;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+
+/* NavBar */
+.fa-bars {
+  cursor: pointer;
 }
 
 /* Headline */
@@ -102,15 +109,6 @@ html {
   padding: 0 2.8rem;
 }
 
-#program h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #d3d3d3;
-  letter-spacing: 0.2rem;
-  text-align: center;
-  padding: 3rem 0 1rem;
-}
-
 .cards {
   display: flex;
   flex-direction: column;
@@ -168,7 +166,7 @@ html {
 .btn-program {
   align-self: center;
   text-align: center;
-  padding: 2.4rem;
+  padding: 1.5rem;
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 600;
@@ -189,15 +187,6 @@ html {
   flex-direction: column;
   margin: 3rem 2.8rem;
   align-items: center;
-}
-
-#features h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #272a31;
-  letter-spacing: 0.2rem;
-  text-align: center;
-  padding: 3rem 0 1rem;
 }
 
 #films {
@@ -268,14 +257,6 @@ html {
   padding: 2.5rem 0;
 }
 
-#partners h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #d3d3d3;
-  letter-spacing: 0.1rem;
-  text-align: center;
-}
-
 #partners .separator {
   margin-bottom: 1rem;
 }
@@ -305,3 +286,132 @@ html {
   width: 10.9rem;
   height: auto;
 }
+
+/* About */
+#about-main {
+  width: 100%;
+  background-color: #f7f7f8;
+  background-image: url("./media/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-main h2 {
+  font-size: 4vw;
+  font-weight: 400;
+  color: #ec5242;
+  letter-spacing: .01rem;
+  text-align: center;
+}
+
+#about-main h1 {
+  font-family: Cocogoose, sans-serif;
+  font-size: 7vw;
+  font-weight: 400;
+  color: #ec5242;
+  text-align: center;
+}
+
+p.about-festival {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #272a31;
+  border: 2px solid #d3d3d3;
+  padding: 1rem;
+  margin-top: 2rem;
+  background: white;
+}
+
+p.contact-text {
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+p.contact-email {
+  font-weight: 800;
+  line-height: 2rem;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  width: fit-content;
+}
+
+.about-wrapper {
+  padding: 1rem 2rem 4rem;
+}
+
+#about-institute div.institute-text {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #272a31;
+  border: 2px solid #d3d3d3;
+  padding: 1rem;
+  margin-top: 2rem;
+  background: white;
+}
+
+#about-institute p:nth-child(1) {
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#about-institute img {
+  margin-left: 40%;
+  width: 180px;
+}
+
+#about-past {
+  background-color: #d3d3d3;
+}
+
+.past-wrapper {
+  padding: 1rem 2rem 4rem;
+}
+
+#about-past img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.past-card-container {
+  margin: 2rem 2rem 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.past-card {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(236, 82, 66, 0.5);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.image-overlay:hover {
+  background: rgba(128, 128, 128, 0.8);
+}
+
+.past-card h3 {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {}
