@@ -12,14 +12,35 @@
 </head>
 
 <body>
-  <header class="topnav" id="myTopnav">
+  <header id="header">
+    <div class="nav-menu">
+      <i id="close-menu" class="fas fa-times fa-3x" aria-hidden="true"></i>
+      <img class="nav-image" src="./media/institute_logo.png" alt="Logo image">
+      <ul class="about-bottom-nav">
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About</a>
+        </li>
+        <li>
+          <a href="./index.html#program">Program</a>
+        </li>
+        <li>
+          <a href="./index.html#features">Featured Films</a>
+        </li>
+        <li>
+          <a href="#">Sign up!</a>
+        </li>
+      </ul>
 
+    </div>
   </header>
 
   <main>
+    <i id="open-menu" class="fa fa-bars fa-3x" aria-hidden="true"></i>
     <!-- Headline section -->
     <section id="headline">
-      <a class="open-menu"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
       <div class="headline-wrapper">
         <h2>Hello film world!</h2>
         <h1>Sundance Film Festival 2023</h1>
@@ -59,11 +80,6 @@
           <i class="fa-solid fa-clapperboard"></i>
           <h3>Premieres</h3>
           <p>A showcase of world premieres of some of the most highly anticipated fiction and nonfiction films of the coming year.</p>
-        </div>
-        <div class="card-6">
-          <i class="fa-solid fa-lightbulb"></i>
-          <h3>Spotlight</h3>
-          <p>A tribute to the cinema we love from throughout the past year.</p>
         </div>
       </div>
       <a href="#" class="btn-program">Don't miss out, sign up now!</a>
@@ -163,6 +179,7 @@
     </div>
   </footer>
 
+  <script src="./js/navMenu.js" async></script>
   <script src="https://kit.fontawesome.com/6615ff58c0.js" crossorigin="anonymous"></script>
 </body>
 

@@ -12,13 +12,34 @@
 </head>
 
 <body>
-  <header class="topnav" id="myTopnav">
+  <header id="header">
+    <div class="nav-menu">
+      <i id="close-menu" class="fas fa-times fa-3x" aria-hidden="true"></i>
+      <img class="nav-image" src="./media/institute_logo.png" alt="Logo image">
+      <ul class="about-bottom-nav">
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About</a>
+        </li>
+        <li>
+          <a href="./index.html#program">Program</a>
+        </li>
+        <li>
+          <a href="./index.html#features">Featured Films</a>
+        </li>
+        <li>
+          <a href="#">Sign up!</a>
+        </li>
+      </ul>
 
+    </div>
   </header>
 
   <main>
+    <i id="open-menu" class="fa fa-bars fa-3x" aria-hidden="true"></i>
     <section id="about-main">
-      <a class="open-menu"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
       <div class="headline-wrapper">
         <h2>Hello film world!</h2>
         <h1>Sundance Film Festival 2023</h1>
@@ -43,7 +64,6 @@
         </div>
       </div>
     </section>
-    <hr>
 
     <section id="about-past">
       <div class="past-wrapper">
@@ -83,6 +103,7 @@
     </div>
   </footer>
 
+  <script src="./js/navMenu.js" async></script>
   <script src="https://kit.fontawesome.com/6615ff58c0.js" crossorigin="anonymous"></script>
 </body>
 

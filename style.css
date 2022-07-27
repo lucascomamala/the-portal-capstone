@@ -36,8 +36,41 @@ html {
 }
 
 /* NavBar */
-.fa-bars {
-  cursor: pointer;
+header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60vw;
+  height: 100vh;
+  z-index: 10;
+  padding: 2rem 1rem 2.8rem 2.8rem;
+  background: #272a31;
+  opacity: 0.97;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  padding-bottom: 1.8rem;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #d3d3d3;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-image {
+  width: 100px;
+  margin: 2rem 0;
 }
 
 /* Headline */
@@ -48,18 +81,21 @@ html {
   background-size: cover;
 }
 
-.open-menu {
+#open-menu {
+  cursor: pointer;
   position: absolute;
   top: 2rem;
   left: 2.5rem;
-}
-
-.open-menu .fa-bars {
   color: #272a31;
 }
 
+#close-menu {
+  cursor: pointer;
+  width: fit-content;
+}
+
 .headline-wrapper {
-  padding: 10rem 2rem 4rem;
+  padding: 10rem 2rem 6rem;
 }
 
 #headline h2 {
@@ -118,8 +154,7 @@ html {
 .card-2,
 .card-3,
 .card-4,
-.card-5,
-.card-6 {
+.card-5 {
   background: #272a31;
   display: grid;
   grid-template-columns: 2fr 2fr 6fr;
@@ -142,9 +177,7 @@ html {
 .card-4:active,
 .card-4:hover,
 .card-5:active,
-.card-5:hover,
-.card-6:active,
-.card-6:hover {
+.card-5:hover {
   border: 2px solid #d3d3d3;
 }
 
@@ -414,4 +447,23 @@ p.contact-email {
   font-weight: 600;
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .headline-wrapper {
+    padding: 10rem 18rem 10rem 4rem;
+  }
+
+  .cards {
+    flex-direction: row;
+        gap: 0.3rem;
+  }
+
+  .card-1, .card-2, .card-3, .card-4, .card-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    max-width: 14rem;
+    gap: 1rem;
+    text-align: center;
+  }
+}
