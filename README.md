@@ -1,8 +1,5 @@
-# the-portal-capstone
-
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # The Portal Capstone
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 Responsive website implemented with HTML, CSS and JavaScript. First capstone project for Microverse.
 
