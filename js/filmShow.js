@@ -131,7 +131,7 @@ let p;
 
 function expandShowcase() {
   // Create and append the tree for one film twice
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 2; i = i + 1) {
     div1 = document.createElement('div');
     div1.setAttribute('class', 'films');
     div2 = document.createElement('div');
@@ -158,7 +158,7 @@ function expandShowcase() {
     div1.appendChild(div3);
     tree.appendChild(div1);
     container.appendChild(tree);
-    filmCounter++;
+    filmCounter = filmCounter + 1;
 
     if (filmCounter >= films.length) {
       btnMore.style.display = 'none';
@@ -169,8 +169,7 @@ function expandShowcase() {
 }
 
 function collapseShowcase() {
-
-  for (let i = filmCounter-1; i >= 2; i--) {
+  for (let i = filmCounter - 1; i >= 2; i = i - 1) {
     container.removeChild(container.children[i]);
   }
   filmCounter = 2;

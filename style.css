@@ -62,6 +62,10 @@ header ul {
   padding-bottom: 1.8rem;
 }
 
+.nav-menu a {
+  width: fit-content;
+}
+
 .about-bottom-nav li a {
   text-decoration: none;
   font-size: 1.6rem;
@@ -71,10 +75,6 @@ header ul {
 .nav-menu {
   display: flex;
   flex-direction: column;
-}
-
-.nav-menu a {
-  width: fit-content;
 }
 
 .nav-image {
@@ -209,12 +209,12 @@ header ul {
   border: 2px solid #d3d3d3;
 }
 
-.cards h3 {
+#program h3 {
   font-size: 1.4rem;
   color: #ec5242;
 }
 
-.cards p {
+#program p {
   font-weight: normal;
   color: #d3d3d3;
 }
@@ -282,14 +282,14 @@ header ul {
   flex-direction: column;
 }
 
-.film-details h3 {
+#features h3 {
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 2rem;
   color: #272a31;
 }
 
-.film-details h4 {
+#features h4 {
   line-height: 2rem;
   font-weight: 400;
   font-style: italic;
@@ -303,7 +303,7 @@ header ul {
   margin: 0.3rem 0.2rem;
 }
 
-.film-details p {
+#features p {
   line-height: 1.8rem;
   font-weight: normal;
   color: #272a31;
@@ -327,13 +327,15 @@ header ul {
   color: #ec5242;
 }
 
-.btn-films:hover, .btn-films:active {
+.btn-films:hover,
+.btn-films:active {
   background: #ec5242;
   color: #d3d3d3;
   border: 1px solid transparent;
 }
 
-.btn-films:hover i, .btn-films:active i {
+.btn-films:hover i,
+.btn-films:active i {
   color: #d3d3d3;
 }
 
@@ -500,7 +502,7 @@ p.contact-email {
   background: rgba(128, 128, 128, 0.8);
 }
 
-.past-card h3 {
+#about-past h3 {
   position: absolute;
   top: 45%;
   left: 40%;
@@ -527,7 +529,7 @@ p.contact-email {
     padding: 0;
     display: block;
     width: 100%;
-    height: fit-content;
+    height: 6.6rem;
     background: white;
   }
 
@@ -580,7 +582,11 @@ p.contact-email {
     gap: 0.3rem;
   }
 
-  .card-1, .card-2, .card-3, .card-4, .card-5 {
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5 {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,4 +1,4 @@
-const header = document.getElementById('header')
+const header = document.getElementById('header');
 const barsButton = document.getElementById('open-menu');
 const closeButton = document.getElementById('close-menu');
 const menuItems = document.querySelectorAll('.about-bottom-nav > li > a');
@@ -24,7 +24,7 @@ menuItems.forEach((element) => {
   element.addEventListener('click', collapseMenu);
 });
 
-window.addEventListener('click', function(e){
+window.addEventListener('click', (e) => {
   if (showing && !header.contains(e.target) && !barsButton.contains(e.target)) {
     collapseMenu();
   }
