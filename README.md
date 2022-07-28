@@ -1,7 +1,7 @@
 # The Portal Capstone
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Responsive website implemented with HTML, CSS and JavaScript. First capstone project for Microverse.
+Responsive website for a film festival implemented with HTML, CSS and JavaScript. First capstone project for Microverse.
 
 [View it here!] (TBA)
 
