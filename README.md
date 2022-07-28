@@ -19,10 +19,6 @@ Responsive website implemented with HTML, CSS and JavaScript. First capstone pro
 - LinkedIn: [Lucas Comamala](https://linkedin.com/in/lucas-comamala/)
 
 ## 🤝 Contributing
-
- - Readme Template from [Microverse Readme Template](https://github.com/microverseinc/readme-template)
- - Linters for html&css from [Microverse Linters](https://github.com/microverseinc/linters-config)
- - Design idea/template from [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
  
 Contributions, issues, and feature requests are welcome!
 
@@ -33,6 +29,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - The Microverse Team
+- Design idea/template from [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Readme Template from [Microverse Readme Template](https://github.com/microverseinc/readme-template) 
 
 ## 📝 License
 
