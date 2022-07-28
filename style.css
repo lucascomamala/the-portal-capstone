@@ -130,7 +130,7 @@ header ul {
   font-size: 4vw;
   font-weight: 400;
   color: #ec5242;
-  letter-spacing: .01rem;
+  letter-spacing: 0.01rem;
 }
 
 #headline h1 {
@@ -399,7 +399,7 @@ header ul {
   font-size: 4vw;
   font-weight: 400;
   color: #ec5242;
-  letter-spacing: .01rem;
+  letter-spacing: 0.01rem;
   text-align: center;
 }
 
