@@ -1,26 +1,24 @@
 // Array of film objects
-const films = [{
+const films = [
+{
   title: 'Fire of Love',
   img: './media/films/fire_of_love.jpg',
   director: 'Sara Dosa',
   desc: 'For two decades, the daring French volcanologist couple - Katia and Maurice Krafft - were seduced by the thrill and danger of this elemental love triangle.',
   alt: 'Fire of Love poster image',
-},
-{
+}, {
   title: 'Gentle',
   img: './media/films/gentle.jpg',
   director: 'Anna Eszter Nemes',
   desc: 'Once the spray tan and stage makeup are washed away after her latest bodybuilding competition, Edina is immediately back at the gym.',
   alt: 'Gentle poster image',
-},
-{
+}, {
   title: 'When You Finish Saving the World',
   img: './media/films/save_the_world.jpg',
   director: 'Jesse Eisenberg',
   desc: 'From his bedroom home studio, high school student Ziggy performs original folk-rock songs for an adoring online fan base.',
   alt: 'When You Finish Saving the World poster image',
-},
-{
+}, {
   title: 'You Won\'t Be Alone',
   img: './media/films/alone.jpg',
   director: 'Goran Stolevski',
@@ -170,4 +168,8 @@ btnMore.addEventListener('click', expandShowcase);
 btnLess.addEventListener('click', collapseShowcase);
 
 // Load two at the start
-window.addEventListener('load', expandShowcase);
+window.addEventListener('load', () => {
+  for (let i = 0; i < 3; i += 1) {
+    expandShowcase();
+  }
+});
