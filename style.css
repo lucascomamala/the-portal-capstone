@@ -78,7 +78,7 @@ header ul {
 }
 
 .nav-image {
-  width: 78px;
+  width: 200px;
   margin: 2rem 0;
 }
 
@@ -398,17 +398,9 @@ header ul {
   padding: 10rem 2rem 6rem;
 }
 
-#about-main h2 {
-  font-size: 2.4rem;
-  font-weight: 400;
-  color: #ec5242;
-  letter-spacing: 0.01rem;
-  text-align: center;
-}
-
 #about-main h1 {
   font-family: Cocogoose, sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 400;
   color: #ec5242;
   text-align: center;
@@ -571,7 +563,7 @@ p.quote {
     padding: 0;
     display: block;
     width: 100%;
-    height: 6rem;
+    height: 6.2rem;
     background: white;
   }
 
@@ -661,16 +653,16 @@ p.quote {
   }
 
   .about-wrapper {
-    padding: 10rem 10rem 6rem;
+    padding: 10rem 15vw 6rem;
   }
 
   .institute-wrapper {
-    padding: 4rem 10rem 6rem;
+    padding: 4rem 15vw 6rem;
   }
 
   .past-card-container {
     flex-direction: row;
-    margin: 0 7rem 2.5rem;
+    margin: 0 15vw 2.5rem;
   }
 
   #about-past h3 {
@@ -678,7 +670,7 @@ p.quote {
   }
 
   #copyright img {
-    width:14rem;
+    width: 14rem;
   }
 
   #copyright {
