@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <link rel="stylesheet" href="./style.css">
+  <title>Sundance Film Festival 2023</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <ul class="top-nav">
+        <li><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#">English</a></li>
+        <li><a href="#">My Page</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+      <div class="nav-menu">
+        <i id="close-menu" class="fas fa-times fa-3x" aria-hidden="true"></i>
+        <a href="./index.html"><img class="nav-image" src="./media/head_logo.png" alt="Logo image"></a>
+        <ul class="about-bottom-nav">
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="./index.html#program">Program</a>
+          </li>
+          <li>
+            <a href="./index.html#features">Featured Films</a>
+          </li>
+          <li>
+            <a href="#">Sign up!</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <i id="open-menu" class="fa fa-bars fa-3x" aria-hidden="true"></i>
+    <!-- Headline section -->
+    <section id="headline">
+      <div class="headline-wrapper">
+        <h2>Hello film world!</h2>
+        <h1>Sundance Film Festival 2023</h1>
+        <p>The 2023 Sundance Film Festival will take place January 19–29, 2023, in person in Park City and Salt Lake City, as well as online. Subscribe to our newsletter to be the first to know about Festival news, updates, ticket sale dates, and
+          more.</p>
+        <h3>19-01-2023 ~ 29-01-2023</h3>
+        <h4>@ Salt Lake City, UT and Park City, UT</h4>
+      </div>
+    </section>
+
+    <!-- Program section -->
+    <section id="program">
+      <h2 class="h2light">Main Program</h2>
+      <div class="separator"></div>
+      <div class="cards">
+        <div class="card-1">
+          <i class="fa-solid fa-film"></i>
+          <h3>US Dramatic Competition</h3>
+          <p>World premieres of fiction feature films, a first look at groundbreaking new voices in American independent film.</p>
+        </div>
+        <div class="card-2">
+          <i class="fa-solid fa-video"></i>
+          <h3>US Documentary Competition</h3>
+          <p>World-premiere American documentaries that illuminate the ideas, people and events that shape the present day.</p>
+        </div>
+        <div class="card-3">
+          <i class="fa-solid fa-earth-europe"></i>
+          <h3>World Cinema Dramatic Competition</h3>
+          <p>Emerging filmmaking talents around the world offer fresh perspectives and inventive styles.</p>
+        </div>
+        <div class="card-4">
+          <i class="fa-solid fa-globe"></i>
+          <h3>World Cinema Documentary Competition</h3>
+          <p>Documentaries by some of the boldest filmmakers working around the world today.</p>
+        </div>
+        <div class="card-5">
+          <i class="fa-solid fa-clapperboard"></i>
+          <h3>Premieres</h3>
+          <p>A showcase of world premieres of some of the most highly anticipated fiction and nonfiction films of the coming year.</p>
+        </div>
+      </div>
+      <a href="#" class="btn-program">Don't miss out, sign up now!</a>
+    </section>
+
+    <!-- Features section -->
+    <section id="features">
+      <h2 class="h2dark">Featured Films</h2>
+      <div class="separator"></div>
+      <div id="films">
+
+      </div>
+
+      <button id="btn-more" class="btn-films" type="button">MORE <i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
+      <a id="btn-less" class="btn-films" href="#features">Collapse <i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+
+    </section>
+
+    <section id="partners">
+      <h2 class="h2light">Partners</h2>
+      <div class="separator"></div>
+      <div class="partners">
+        <img src="./media/sponsors/acura.png" alt="Acura logo">
+        <img src="./media/sponsors/adobe.png" alt="Adobe logo">
+        <img src="./media/sponsors/amc.png" alt="AMC logo">
+        <img src="./media/sponsors/netflix.png" alt="Netflix logo">
+        <img src="./media/sponsors/amazon.png" alt="Amazon logo">
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div id="copyright">
+      <img src="./media/foot_logo.png" alt="Sundance Film Festival Logo">
+      <p>Copyright © 2022 Sundance Institute, All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="./js/navMenu.js" async></script>
+  <script src="./js/filmShow.js" async></script>
+  <script src="https://kit.fontawesome.com/6615ff58c0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
