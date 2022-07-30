@@ -3,7 +3,7 @@
 
 Responsive website for a film festival implemented with HTML, CSS and JavaScript. First capstone project for Microverse.
 
-[View it here!] (TBA)
+[View it here!](https://lucascomamala.github.io/the-portal-capstone/)
 
 [Video presentation of the project here](https://www.loom.com/share/92006233a8fb4853a208d58bbbb49699)
 
