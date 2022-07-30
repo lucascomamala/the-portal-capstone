@@ -5,6 +5,8 @@ Responsive website for a film festival implemented with HTML, CSS and JavaScript
 
 [View it here!] (TBA)
 
+[Video presentation of the project here](https://www.loom.com/share/92006233a8fb4853a208d58bbbb49699)
+
 ## Built With
 
 - HTML
